@@ -16,6 +16,8 @@ y con conceptos de los distintos grupos de trabajo:
 * _[Testigos-del-bitcoin](https://github.com/WidmarO/Testigos-del-bitcoin)_
 
 agredecemos los aportes extraidos de vuestros trabajos
+### **Dudas**
+* _[Dudas](https://docs.google.com/document/d/19Lbyj0zbaXeI-JDKwL5Q3aw5zZf0US3EbLihIBADTWE/edit)_
 ### **RNF confidencialidad**
 * _[UX](#)_
 * _[pistar](#)_
