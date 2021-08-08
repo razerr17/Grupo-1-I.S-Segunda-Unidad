@@ -464,7 +464,7 @@
           "text": "SG1. Capacidades",
           "type": "istar.Quality",
           "x": 1539,
-          "y": 1098,
+          "y": 1056,
           "customProperties": {
             "Description": ""
           }
@@ -494,7 +494,7 @@
           "text": "T26 Recibe y Envía Notificaciones(Estudiante)",
           "type": "istar.Task",
           "x": 1291,
-          "y": 1196,
+          "y": 1198,
           "customProperties": {
             "Description": ""
           }
@@ -505,6 +505,26 @@
           "type": "istar.Task",
           "x": 1340,
           "y": 1097,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "4089c099-43a7-4615-8b58-0180e8e894b9",
+          "text": "Confidencialidad",
+          "type": "istar.Quality",
+          "x": 1489,
+          "y": 1225,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0c39b388-34fa-4b51-93fc-2045e501a247",
+          "text": "T31 Aceptar o rechazar acceso a información confidencial",
+          "type": "istar.Task",
+          "x": 1467,
+          "y": 1120,
           "customProperties": {
             "Description": ""
           }
@@ -1043,6 +1063,19 @@
       "type": "istar.AndRefinementLink",
       "source": "55b0d6ad-5059-42a4-b384-e5aed382d56a",
       "target": "5fc7b4ac-15fe-43a6-ac84-9f9bb6389dd1"
+    },
+    {
+      "id": "2d6568ba-4d41-4602-9ae0-caa237ca24bc",
+      "type": "istar.ContributionLink",
+      "source": "0c39b388-34fa-4b51-93fc-2045e501a247",
+      "target": "4089c099-43a7-4615-8b58-0180e8e894b9",
+      "label": "make"
+    },
+    {
+      "id": "94ad0f14-8740-465d-9eb4-11a0a531e5f3",
+      "type": "istar.AndRefinementLink",
+      "source": "0c39b388-34fa-4b51-93fc-2045e501a247",
+      "target": "5fc7b4ac-15fe-43a6-ac84-9f9bb6389dd1"
     }
   ],
   "display": {
@@ -1202,6 +1235,14 @@
       "width": 127.515625,
       "height": 46.3203125
     },
+    "4089c099-43a7-4615-8b58-0180e8e894b9": {
+      "width": 129.7572021484375,
+      "height": 63.069091796875
+    },
+    "0c39b388-34fa-4b51-93fc-2045e501a247": {
+      "width": 156.71875,
+      "height": 52.0625
+    },
     "7cc404a4-966e-4981-9f47-9e0a0347e21e": {
       "width": 110.5333251953125,
       "height": 58.33332824707031
@@ -1304,7 +1345,7 @@
   },
   "tool": "pistar.2.0.0",
   "istar": "2.0",
-  "saveDate": "Sat, 07 Aug 2021 23:43:03 GMT",
+  "saveDate": "Sun, 08 Aug 2021 01:38:32 GMT",
   "diagram": {
     "width": 2308,
     "height": 1707,
