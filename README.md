@@ -18,6 +18,8 @@ y con conceptos de los distintos grupos de trabajo:
 agredecemos los aportes extraidos de vuestros trabajos
 ### **Dudas**
 * _[Dudas](https://docs.google.com/document/d/19Lbyj0zbaXeI-JDKwL5Q3aw5zZf0US3EbLihIBADTWE/edit)_
+### **Informe**
+* _[Informe](https://docs.google.com/document/d/1pgaCNmPrK4FzlS2riLuAyA2kxl1-kagwGfYvNBnqboM/edit)_
 ### **RNF confidencialidad**
 * _[UX](#)_
 * _[pistar](#)_
