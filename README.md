@@ -20,6 +20,20 @@ agredecemos los aportes extraidos de vuestros trabajos
 * _[Dudas](https://docs.google.com/document/d/19Lbyj0zbaXeI-JDKwL5Q3aw5zZf0US3EbLihIBADTWE/edit)_
 ### **Informe**
 * _[Informe](https://docs.google.com/document/d/1pgaCNmPrK4FzlS2riLuAyA2kxl1-kagwGfYvNBnqboM/edit)_
+
+### **Procedimiento para actualizacion de requisitos:**
+*Modificar tabla de prioridad de filtrado.  
+*Agregamos a la lista de requisitos. 
+*Actualizar el diagrama de casos de uso.
+*Actualizar el SD. 
+*Actualizar el SR. 
+*Actualizar el modelo Logico. 
+*Actualizar el filtro de tareas.
+*Actualizar tareas realizables. 
+*Actualizar la priorizacion por tecnica.
+*Actualizar las tablas de especificacion de requisitos.
+*Actualizar los prototipos correspondientes.
+
 ### **RNF confidencialidad**
 * _[UX](#)_
 * _[pistar](#)_
