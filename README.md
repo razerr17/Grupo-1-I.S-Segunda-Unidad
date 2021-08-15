@@ -35,9 +35,7 @@ agredecemos los aportes extraidos de vuestros trabajos
 *Actualizar los prototipos correspondientes.
 
 ### **RNF confidencialidad**
-* _[UX](#)_
-* _[pistar](#)_
-* _[RNF model](#)_
+* _[Confidencialidad](https://github.com/razerr17/Grupo-1-I.S-Segunda-Unidad/blob/main/Modelos/NFRConfidencialidad.png)_
 ## Autores
 * **Melissa Briggitte Espejo Franco - 171258** - [melissaespejo](https://github.com/melissaespejo)
 * **Briggitte Ugarte Castillo - 174455** - [briluc](https://github.com/briluc)
