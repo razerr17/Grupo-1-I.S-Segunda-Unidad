@@ -36,6 +36,8 @@ agredecemos los aportes extraidos de vuestros trabajos
 
 ### **RNF confidencialidad**
 * _[Confidencialidad](https://github.com/razerr17/Grupo-1-I.S-Segunda-Unidad/blob/main/Modelos/NFRConfidencialidad.png)_
+### **Estimacion Cocomo**
+* _[Cocomo](https://docs.google.com/document/d/1iu4GzGoD8HzfxKUe6fUxnTN9sFydXYX9FV1S2n1rQlI/edit)_
 ## Autores
 * **Melissa Briggitte Espejo Franco - 171258** - [melissaespejo](https://github.com/melissaespejo)
 * **Briggitte Ugarte Castillo - 174455** - [briluc](https://github.com/briluc)
