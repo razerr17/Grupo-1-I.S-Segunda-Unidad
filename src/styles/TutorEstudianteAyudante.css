@@ -1,0 +1,23 @@
+.tops {
+  height: 20%;
+  padding: 2%;
+}
+.bots {
+  height: 75%;
+  border-radius: 20px;
+  background: #d9d9d9;
+  padding: 20px;
+  margin: 10px;
+}
+.lblBuscar {
+  margin-bottom: 1%;
+}
+.btnBuscarNombre {
+  background: #fd9727;
+  border-radius: 10px;
+  width: 200px;
+}
+.IconoBuscar {
+  margin-left: 15px;
+  font-size: 20px;
+}
