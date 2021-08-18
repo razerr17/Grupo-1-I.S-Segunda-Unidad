@@ -22,6 +22,9 @@ agredecemos los aportes extraidos de vuestros trabajos
 * _[Informe](https://docs.google.com/document/d/1pgaCNmPrK4FzlS2riLuAyA2kxl1-kagwGfYvNBnqboM/edit)_
 
 ### **Procedimiento para actualizacion de requisitos:**
+*Modificar tabla de prioridad de filtracion
+*Agregamos a la lista de requisitos
+*Actualizarel diagrama de casos de uso
 
 
 ### **RNF confidencialidad**
