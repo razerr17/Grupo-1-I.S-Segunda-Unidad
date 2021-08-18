@@ -22,17 +22,7 @@ agredecemos los aportes extraidos de vuestros trabajos
 * _[Informe](https://docs.google.com/document/d/1pgaCNmPrK4FzlS2riLuAyA2kxl1-kagwGfYvNBnqboM/edit)_
 
 ### **Procedimiento para actualizacion de requisitos:**
-*Modificar tabla de prioridad de filtrado.  
-*Agregamos a la lista de requisitos. 
-*Actualizar el diagrama de casos de uso.
-*Actualizar el SD. 
-*Actualizar el SR. 
-*Actualizar el modelo Logico. 
-*Actualizar el filtro de tareas.
-*Actualizar tareas realizables. 
-*Actualizar la priorizacion por tecnica.
-*Actualizar las tablas de especificacion de requisitos.
-*Actualizar los prototipos correspondientes.
+
 
 ### **RNF confidencialidad**
 * _[Confidencialidad](https://github.com/razerr17/Grupo-1-I.S-Segunda-Unidad/blob/main/Modelos/NFRConfidencialidad.png)_
