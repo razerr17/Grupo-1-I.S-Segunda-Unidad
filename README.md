@@ -24,7 +24,15 @@ agredecemos los aportes extraidos de vuestros trabajos
 ### **Procedimiento para actualizacion de requisitos:**
 *Modificar tabla de prioridad de filtracion
 *Agregamos a la lista de requisitos
-*Actualizarel diagrama de casos de uso
+*Actualizar el diagrama de casos de uso
+*Actualizar el SD
+*Actualizar el SR.
+*Actualizar el filtro de tareas.
+*Actualizar el modelo logico.
+*Actualizar tareas realizables.
+*Actualizar las prioriddes por tecnica.
+*Actualizar las tablas deespecificacionesde requisitos.
+*Actualizar losprototipos correspondientes.
 
 
 ### **RNF confidencialidad**
@@ -36,7 +44,7 @@ agredecemos los aportes extraidos de vuestros trabajos
 
 
 ## Autores
-* ** Melissa Briggitte Espejo Franco - 171258** - [melissaespejo]_(https://github.com/melissaespejo)
+* ** Melissa Briggitte Espejo Franco - 171258** - [melissaespejo]_(https://github.com/melissaespejo)**
 *  ** Briggitte  Leonor Ugarte Castillo  - 174455 ** - [briluc]_(https://github
 *  ** Cesar Rodrigo Ttito Quilca - 140998 ** - [cesarodrigo21 
 * **Wily Muñoz Muñoz - 161369** - [WIL1707](https://github.com/WIL1707)
