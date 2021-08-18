@@ -43,7 +43,7 @@ agredecemos los aportes extraidos de vuestros trabajos
 * _[Riesgo](https://docs.google.com/document/d/1sDjWP60GWTpfousy8ObzpAJhK-Yoa4mHtFFfxCeuIn4/edit#heading=h.osx4xe9kvx4)_
 
 
-## **Autores **
+## Autores
 * ** Melissa Briggitte Espejo Franco - 171258** - [melissaespejo]_(https://github.com/melissaespejo)
 *  ** Briggitte  Leonor Ugarte Castillo  - 174455 ** - [briluc]_(https://github
 *  ** Cesar Rodrigo Ttito Quilca - 140998 ** - [cesarodrigo21 
