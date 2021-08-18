@@ -44,11 +44,12 @@ agredecemos los aportes extraidos de vuestros trabajos
 
 
 ## Autores
-* ** Melissa Briggitte Espejo Franco - 171258** - [melissaespejo]_(https://github.com/melissaespejo)**
+* ** Melissa Briggitte Espejo Franco - 171258** - [melissaespejo]_(https://github.com/melissaespejo)
 *  ** Briggitte  Leonor Ugarte Castillo  - 174455 ** - [briluc]_(https://github
 *  ** Cesar Rodrigo Ttito Quilca - 140998 ** - [cesarodrigo21 
 * **Wily Muñoz Muñoz - 161369** - [WIL1707](https://github.com/WIL1707)
 * **Jhon Edwin Tacusi Larota - 150408** - [jhontacusi](https://github.com/jhontacusi)
 * **Juan Carlos Condori Lopez - 170429** - [juancarlos170429](https://github.com/juancarlos170429)
 * **Edgar Daniel Ramos Alvarez - 171570** - [razerr17](https://github.com/razerr17)
+-* ** Melissa Briggitte Espejo Franco - 171258 ** - [melissaespejo]  ( https://github.com/melissaespejo )
 --- 
