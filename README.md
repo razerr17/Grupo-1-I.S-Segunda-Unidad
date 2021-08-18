@@ -45,7 +45,8 @@ agredecemos los aportes extraidos de vuestros trabajos
 ## Autores
 * ** Melissa Briggitte Espejo Franco - 171258** - [melissaespejo]_(https://github.com/melissaespejo)
 *  ** Briggitte  Leonor Ugarte Castillo  - 174455 ** - [briluc]_(https://github
-*  ** Cesar Rodrigo Ttito Quilca - 140998 ** - [cesarodrigo21 
+* **Cesar Rodrigo Ttito Quilca - 140998** - [cesarodrigo21](https://github.com/cesarodrigo21)
+* **Enit Muñoz Pacheco - 161727**- [enit_mup](https://github.com/enit_mup)
 * **Wily Muñoz Muñoz - 161369** - [WIL1707](https://github.com/WIL1707)
 * **Jhon Edwin Tacusi Larota - 150408** - [jhontacusi](https://github.com/jhontacusi)
 * **Juan Carlos Condori Lopez - 170429** - [juancarlos170429](https://github.com/juancarlos170429)
