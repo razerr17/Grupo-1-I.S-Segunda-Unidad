@@ -13,7 +13,7 @@ y con conceptos de los distintos grupos de trabajo:
 * _[TeamRocket](https://github.com/VkCarlin/TeamRocket)_
 * _[FastConnection](https://github.com/AlexHelder-Tyzer/IngSoft-FastConnection)_
 * _[CompumundoHiperMegaRed4G](https://github.com/razerr17/Compumundo_Hiper_Mega_Red_G4)_
-* _[Testigos-del-bitcoin]()_
+* _[Testigos-del-bitcoin](https://github.com/WidmarO/Testigos-del-bitcoin)_
 
 agredecemos los aportes extraidos de vuestros trabajos
 ### **Dudas**
