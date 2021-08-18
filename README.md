@@ -22,17 +22,16 @@ agredecemos los aportes extraidos de vuestros trabajos
 * _[Informe](https://docs.google.com/document/d/1pgaCNmPrK4FzlS2riLuAyA2kxl1-kagwGfYvNBnqboM/edit)_
 
 ### **Procedimiento para actualizacion de requisitos:**
-- Agreddsdd     
-*Agregamos a la lista de requisitos.
-*Actualizar el diagrama de casos de uso.
-*Actualizar el SD.
-*Actualizar el SR.
-*Actualizar el filtro de tareas.
-*Actualizar el modelo logico.
-*Actualizar tareas realizables.
-*Actualizar las prioriddes por tecnica.
-*Actualizar las tablas deespecificacionesde requisitos.
-*Actualizar losprototipos correspondientes.
+- Modificar tabla de prioridad de filtracion.
+- Agregamos  a la lista  de requisitos.
+- Actualizar el diagrama de casos de uso.
+- Actualizar SD.
+- Actualizar el SR.
+- Actualizar el modelo logico.
+- Actualizar tareas realizables.
+- Actualizar las prioridades por tecnica.
+- Actualizar las tablas de especificacion de requisitos.
+- Actualizar los prototipos correspondientes.
 
 
 ### **RNF confidencialidad**
