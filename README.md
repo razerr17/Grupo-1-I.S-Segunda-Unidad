@@ -39,7 +39,7 @@ agredecemos los aportes extraidos de vuestros trabajos
 ### **Estimacion Cocomo**
 * _[Cocomo](https://docs.google.com/document/d/1iu4GzGoD8HzfxKUe6fUxnTN9sFydXYX9FV1S2n1rQlI/edit)_
 ### **Analisis de Riesgo**
-* _[Riesgo]()_
+* _[Riesgo](https://docs.google.com/document/d/1sDjWP60GWTpfousy8ObzpAJhK-Yoa4mHtFFfxCeuIn4/edit#heading=h.osx4xe9kvx4)_
 
 ## Autores
 * **Melissa Briggitte Espejo Franco - 171258** - [melissaespejo](https://github.com/melissaespejo)
