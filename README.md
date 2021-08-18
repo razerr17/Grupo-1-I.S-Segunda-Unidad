@@ -34,7 +34,7 @@ agredecemos los aportes extraidos de vuestros trabajos
 *Actualizar las tablas de especificacion de requisitos.
 *Actualizar los prototipos correspondientes.
 
-### **RNF confidencialidad**
+
 * _[Confidencialidad](https://github.com/razerr17/Grupo-1-I.S-Segunda-Unidad/blob/main/Modelos/NFRConfidencialidad.png)_
 ### **Estimacion Cocomo**
 * _[Cocomo](https://docs.google.com/document/d/1iu4GzGoD8HzfxKUe6fUxnTN9sFydXYX9FV1S2n1rQlI/edit)_
