@@ -43,7 +43,7 @@ agredecemos los aportes extraidos de vuestros trabajos
 * _[Riesgo](https://docs.google.com/document/d/1sDjWP60GWTpfousy8ObzpAJhK-Yoa4mHtFFfxCeuIn4/edit#heading=h.osx4xe9kvx4)_
 
 
-## Autores
+## **Autores **
 * ** Melissa Briggitte Espejo Franco - 171258** - [melissaespejo]_(https://github.com/melissaespejo)
 *  ** Briggitte  Leonor Ugarte Castillo  - 174455 ** - [briluc]_(https://github
 *  ** Cesar Rodrigo Ttito Quilca - 140998 ** - [cesarodrigo21 
@@ -51,5 +51,5 @@ agredecemos los aportes extraidos de vuestros trabajos
 * **Jhon Edwin Tacusi Larota - 150408** - [jhontacusi](https://github.com/jhontacusi)
 * **Juan Carlos Condori Lopez - 170429** - [juancarlos170429](https://github.com/juancarlos170429)
 * **Edgar Daniel Ramos Alvarez - 171570** - [razerr17](https://github.com/razerr17)
--* ** Melissa Briggitte Espejo Franco - 171258 ** - [melissaespejo]  ( https://github.com/melissaespejo )
+
 --- 
