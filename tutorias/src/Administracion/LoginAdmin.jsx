@@ -34,7 +34,9 @@ const LoginAdmin = ()=>{
                         placeholder="*********"
                         />
                         <br />
-                        <button className="ingresar" >Iniciar Sesión</button>
+                        <Link to="/Admin_Menu" style={{ textDecoration: 'none' }}>
+                            <button className="ingresar" >Iniciar Sesión</button>
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,70 @@
+.obtencionTop {
+  height: 20%;
+  padding: 2%;
+}
+.obtencionBot {
+  height: 70%;
+  background: #efefef;
+  border-radius: 20px;
+  margin: 1%;
+  padding: 2%;
+}
+.inputLarge {
+  margin-left: 1%;
+  width: 100%;
+  float: right;
+  background: #efefef;
+  border: 0;
+  height: 25px;
+  border-radius: 20px;
+}
+.btnSe {
+  border-radius: 20px;
+  background: #fd9727;
+  width: 200px;
+}
+.CardAsig {
+  border-radius: 40px;
+  background: white;
+  height: 100px;
+  padding: 2%;
+  list-style: none;
+  margin-bottom: 1%;
+}
+.inputNota {
+  margin-left: 1%;
+  width: 100%;
+  float: right;
+  background: #efefef;
+  border: 0;
+  height: 25px;
+
+  border-radius: 20px;
+}
+.toplbl {
+  margin-bottom: 6px;
+}
+.btnAgre {
+  position: absolute;
+  bottom: 12%;
+  left: 55%;
+  background: #383e5f;
+  border-radius: 50%;
+
+  border-color: #efefef;
+  height: 50px;
+  width: 50px;
+}
+.iconoAdd {
+  font-size: 28px;
+  color: #fd9727;
+}
+.btnGua {
+  position: relative;
+  left: 80%;
+  top: -5px;
+  background: #fd9727;
+  border-radius: 20px;
+  height: 40px;
+  width: 200px;
+}

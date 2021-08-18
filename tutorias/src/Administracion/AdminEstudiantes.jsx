@@ -1,16 +1,16 @@
 import React from 'react'
-import Tutorbar from "../Tutor/Tutorbar"
-const TutorRegistrarFichaTutoria = () => {
+import AdminBar from '../Administracion/AdminBar'
+const AdminEstudiantes = () => {
     return (
         <div>
-            <Tutorbar/>
+            <AdminBar/>
             <div className="contenido">
                 <div className="Principal2">
-                    Registar fihca tutoria
+                   <h1> Estudiantes</h1>
                 </div>
             </div>
         </div>
     )
 }
 
-export default TutorRegistrarFichaTutoria
+export default AdminEstudiantes

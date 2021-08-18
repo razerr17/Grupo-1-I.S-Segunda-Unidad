@@ -99,6 +99,16 @@
   bottom: 15px;
   width: 100%;
 }
+.linkEstudiantes {
+  position: absolute;
+  bottom: 85px;
+  width: 100%;
+}
+.linkDocentes {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+}
 .SmallLe {
   background: blue;
   word-wrap: break-word;

@@ -19,7 +19,18 @@ import TutorInformeSemestral from './Tutor/TutorInformeSemestral';
 import TutorObtencionNotas from './Tutor/TutorObtencionNotas';
 import TutorRegistrarFichaTutoria from './Tutor/TutorRegistrarFichaTutoria';
 import TutorPerfil from './Tutor/TutorPerfil';
-
+import AdminMenu from './Administracion/AdminMenu';
+import AdminHorarios from './Administracion/AdminHorarios';
+import AdminDocentesTutores from './Administracion/AdminDocentesTutores';
+import AdminAyudantes from './Administracion/AdminAyudantes';
+import AdminEstudiantesRiesgo from './Administracion/AdminEstudiantesRiesgo';
+import AdminConsultarInfo from './Administracion/AdminConsultarInfo';
+import AdminCrearNotifi from './Administracion/AdminCrearNotifi';
+import AdminHacerTutor from './Administracion/AdminHacerTutor';
+import AdminAsignarTutor from './Administracion/AdminAsignarTutor';
+import AdminEstudiantes from './Administracion/AdminEstudiantes';
+import AdminDocentes from './Administracion/AdminDocentes';
+import AdminPerfil from './Administracion/AdminPerfil';
 
 function App() {
   return (
@@ -45,6 +56,19 @@ function App() {
            <Route exact path="/Tutor_Registrar_Ficha_Tutoria" component={TutorRegistrarFichaTutoria}/>
            <Route exact path="/Tutor_Obtencion_Notas" component={TutorObtencionNotas}/>
            <Route exact path="/Tutor_Perfil" component={TutorPerfil}/>
+           <Route exact path="/Admin_Menu" component={AdminMenu}/>
+           <Route exact path="/Admin_Horarios" component={AdminHorarios}/>
+           <Route exact path="/Admin_Docentes_Tutores" component={AdminDocentesTutores}/>
+           <Route exact path="/Admin_Ayudantes" component={AdminAyudantes}/>
+           <Route exact path="/Admin_Estudiantes_Riesgo" component={AdminEstudiantesRiesgo}/>
+           <Route exact path="/Admin_Consultar_Informes" component={AdminConsultarInfo}/>
+           <Route exact path="/Admin_Crear_Notificacion" component={AdminCrearNotifi}/>
+           <Route exact path="/Admin_Hacer_Tutor" component={AdminHacerTutor}/>
+           <Route exact path="/Admin_Asignar_Tutor" component={AdminAsignarTutor}/>
+           <Route exact path="/Admin_Estudiantes" component={AdminEstudiantes}/>
+           <Route exact path="/Admin_Docentes" component={AdminDocentes}/>
+           <Route exact path="/Admin_Perfil" component={AdminPerfil}/>
+           
            
 
         </Switch>
