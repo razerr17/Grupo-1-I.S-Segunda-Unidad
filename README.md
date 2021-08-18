@@ -41,10 +41,8 @@ agredecemos los aportes extraidos de vuestros trabajos
 ### **Analisis de Riesgo**
 * _[Riesgo](https://docs.google.com/document/d/1sDjWP60GWTpfousy8ObzpAJhK-Yoa4mHtFFfxCeuIn4/edit#heading=h.osx4xe9kvx4)_
 
-## Autores
-* **Melissa Briggitte Espejo Franco - 171258** - [melissaespejo](https://github.com/melissaespejo)
-* **Briggitte Ugarte Castillo - 174455** - [briluc](https://github.com/briluc)
-* **Cesar Rodrigo Ttito Quilca - 140998** - [cesarodrigo21](https://github.com/cesarodrigo21)
+
+
 * **Enit Muñoz Pacheco - 161727** - [enit-mup](https://github.com/enit-mup)
 * **Wily Muñoz Muñoz - 161369** - [WIL1707](https://github.com/WIL1707)
 * **Jhon Edwin Tacusi Larota - 150408** - [jhontacusi](https://github.com/jhontacusi)
