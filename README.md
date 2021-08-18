@@ -34,7 +34,7 @@ agredecemos los aportes extraidos de vuestros trabajos
 *Actualizar las tablas de especificacion de requisitos.
 *Actualizar los prototipos correspondientes.
 
-
+### **RNF confidencialidad**
 * _[Confidencialidad](https://github.com/razerr17/Grupo-1-I.S-Segunda-Unidad/blob/main/Modelos/NFRConfidencialidad.png)_
 ### **Estimacion Cocomo**
 * _[Cocomo](https://docs.google.com/document/d/1iu4GzGoD8HzfxKUe6fUxnTN9sFydXYX9FV1S2n1rQlI/edit)_
@@ -46,7 +46,7 @@ agredecemos los aportes extraidos de vuestros trabajos
 * **Briggitte Ugarte Castillo - 174455** - [briluc](https://github.com/briluc)
 * **Cesar Rodrigo Ttito Quilca - 140998** - [cesarodrigo21](https://github.com/cesarodrigo21)
 * **Enit Muñoz Pacheco - 161727** - [enit-mup](https://github.com/enit-mup)
-* **Wily Muñoz Muñoz - 161369** - [WIL1707](https://github.com/WIL1707)
+* **Wily Muñoz Muñoz - 161369** - [WIL1707]()
 * **Jhon Edwin Tacusi Larota - 150408** - [jhontacusi](https://github.com/jhontacusi)
 * **Juan Carlos Condori Lopez - 170429** - [juancarlos170429](https://github.com/juancarlos170429)
 * **Edgar Daniel Ramos Alvarez - 171570** - [razerr17](https://github.com/razerr17)
