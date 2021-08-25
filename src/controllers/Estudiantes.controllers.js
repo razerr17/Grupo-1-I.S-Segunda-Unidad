@@ -1,10 +1,10 @@
 import { getConnection,sql,queries } from "../database";
-//
+//peticiones a la base de datos se detalla la funcionalidad en Estudiantes.routes.js
 export const getEstudiantes=async (req,res)=>{
     try{
         const pool=await getConnection()
         const result=await pool.request().query(queries.getAllEstudiantes);
-        console.log(result);  
+        console.log('getEstudiantes executed');  
         res.json(result.recordset)
     }catch(error){
         res.status(500);
@@ -17,7 +17,7 @@ export const getEstudianteById=async (req,res)=>{
         const pool=await getConnection();
         const result=await pool.request().input("IDEstudiante",sql.VarChar,id)
         .query(queries.getEstudianteById);
-        console.log(result);  
+        console.log('getEstudiantesByID executed',id);  
         res.json(result.recordset);
     }catch(error){
         res.status(500);
@@ -37,6 +37,7 @@ export const addEstudiante=async (req,res)=>{
             .input("Direccion",sql.VarChar,Direccion)
             .input("Celular",sql.VarChar,Celular)
             .query(queries.addNewEstudiantes);
+        console.log('addEstudiantes executed',IDEstudiante)
         res.json({IDEstudiante,Nombres,ApPaterno,ApMaterno,Email,Direccion,Celular});
     }catch(error){
         res.status(500);
@@ -57,6 +58,7 @@ export const updateEstudianteById=async (req,res)=>{
             .input("Direccion",sql.VarChar,Direccion)
             .input("Celular",sql.VarChar,Celular)
             .query(queries.updateEstudianteById);
+        console.log('updateEstudiantesByID executed',id)
         res.json({id,Nombres,ApPaterno,ApMaterno,Email,Direccion,Celular});
     }catch(error){
         res.status(500);
@@ -71,7 +73,7 @@ export const deleteEstudianteById=async (req,res)=>{
             .input("IDEstudiante",sql.VarChar,id)
             .query(queries.deleteEstudianteById);
         res.json({id});
-        console.log("Se elimino el usuario");
+        console.log("deleteEstudianteById executed",id);
     }catch(error){
         res.status(500);
         res.send(error.message);

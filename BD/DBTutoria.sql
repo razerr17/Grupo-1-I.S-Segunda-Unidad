@@ -10,7 +10,7 @@ create database DBTutoria
 go
 use DBTutoria
 go
-
+---LEEMEEE EL FORMATO DE FECHA ES dd/mm/yyyy dia mes anio
 --------------------------------------------------------------------------
 -- CREACION DE LA TABLA Estudiante
 --------------------------------------------------------------------------
@@ -372,16 +372,16 @@ insert into TEstudianteAyudante values('A0010','2021-I','REDES DE COMPUTADORAS I
 --------------------------------------------------------------------------
 -- inserción de datos en la tabla FichaTallerReforzamiento
 --------------------------------------------------------------------------
-insert into TFichaTallerReforzamiento values('REF001','12/03/2021','A0001','171063')
-insert into TFichaTallerReforzamiento values('REF002','13/03/2021','A0002','163845')
-insert into TFichaTallerReforzamiento values('REF003','14/03/2021','A0003','160889')
-insert into TFichaTallerReforzamiento values('REF004','15/03/2021','A0004','140998')
-insert into TFichaTallerReforzamiento values('REF005','12/05/2021','A0005','170436')
-insert into TFichaTallerReforzamiento values('REF006','13/05/2021','A0006','160889')
-insert into TFichaTallerReforzamiento values('REF007','14/05/2021','A0007','174909')
-insert into TFichaTallerReforzamiento values('REF008','12/09/2021','A0008','170429')
-insert into TFichaTallerReforzamiento values('REF009','13/09/2021','A0009','160329')
-insert into TFichaTallerReforzamiento values('REF010','13/09/2021','A0010','170432')
+insert into TFichaTallerReforzamiento values('REF001','02/03/2021','A0001','171063')
+insert into TFichaTallerReforzamiento values('REF002','03/03/2021','A0002','163845')
+insert into TFichaTallerReforzamiento values('REF003','04/03/2021','A0003','160889')
+insert into TFichaTallerReforzamiento values('REF004','05/03/2021','A0004','140998')
+insert into TFichaTallerReforzamiento values('REF005','02/05/2021','A0005','170436')
+insert into TFichaTallerReforzamiento values('REF006','03/05/2021','A0006','160889')
+insert into TFichaTallerReforzamiento values('REF007','04/05/2021','A0007','174909')
+insert into TFichaTallerReforzamiento values('REF008','02/09/2021','A0008','170429')
+insert into TFichaTallerReforzamiento values('REF009','03/09/2021','A0009','160329')
+insert into TFichaTallerReforzamiento values('REF010','03/09/2021','A0010','170432')
 --------------------------------------------------------------------------
 -- inserción de datos en la tabla CoordinadorTutoria
 --------------------------------------------------------------------------
@@ -456,16 +456,16 @@ insert into THorariosLibreTutor values('01/06/2021','DESCRIPCION 5','T00005')
 --------------------------------------------------------------------------
 -- inserción de datos en la tabla Informe
 --------------------------------------------------------------------------
-insert into TInforme values('INF001','12/07/2021')
-insert into TInforme values('INF002','12/06/2021')
-insert into TInforme values('INF003','02/03/2021')
-insert into TInforme values('INF004','10/08/2021')
-insert into TInforme values('INF005','20/04/2021')
-insert into TInforme values('INF006','21/03/2021')
+insert into TInforme values('INF001','07/12/2021')
+insert into TInforme values('INF002','06/12/2021')
+insert into TInforme values('INF003','03/02/2021')
+insert into TInforme values('INF004','08/10/2021')
+insert into TInforme values('INF005','04/20/2021')
+insert into TInforme values('INF006','03/21/2021')
 insert into TInforme values('INF007','05/05/2021')
-insert into TInforme values('INF008','16/06/2021')
-insert into TInforme values('INF009','17/07/2021')
-insert into TInforme values('INF010','01/07/2021')
+insert into TInforme values('INF008','06/16/2021')
+insert into TInforme values('INF009','07/17/2021')
+insert into TInforme values('INF010','07/01/2021')
 
 --------------------------------------------------------------------------
 -- inserción de datos en la tabla InformeSemestral
