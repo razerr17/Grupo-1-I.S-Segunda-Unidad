@@ -1,10 +1,11 @@
 import express from 'express'
 import config from './config'
-
+const cors=require('cors')
 import estudiantesRoutes from './routes/Estudiantes.routes'
 
 const app=express();
-
+//Cors
+app.use(cors());
 //settings
 app.set('port',config.port);
 
