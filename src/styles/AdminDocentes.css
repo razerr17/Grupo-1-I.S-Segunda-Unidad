@@ -1,0 +1,56 @@
+.datTop {
+  width: 400px;
+  padding-top: 2%;
+
+  margin-left: 60%;
+}
+.tableScrollDT {
+  position: relative;
+  height: 95%;
+  overflow: auto;
+  margin-top: 2%;
+  width: 100%;
+  border-radius: 10px;
+}
+.scrollDT {
+  display: block;
+}
+.TablaDT {
+  height: 70%;
+  margin: 2%;
+  background: #d9d9d9;
+  border-radius: 20px;
+  padding: 1%;
+}
+.btnColoG {
+  background: #ed9b40;
+  border-radius: 2px;
+  width: 80px;
+  height: 38px;
+  color: white;
+  border-style: none;
+}
+.btnColoC {
+  background: #383e5f;
+  border-radius: 2px;
+  width: 80px;
+  height: 38px;
+  color: white;
+  border-style: none;
+}
+.colTable {
+  background: #ed9b40;
+}
+.btnAddEst {
+  background: #ed9b40;
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+.btnImportar {
+  background: #ed9b40;
+  border-radius: 10px;
+}
+.anchoMo {
+  width: 800px;
+  background: black;
+}

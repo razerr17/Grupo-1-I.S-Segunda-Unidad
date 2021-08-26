@@ -1,0 +1,73 @@
+.Part1 {
+  height: 38%;
+  padding: 1%;
+}
+.Part2 {
+  height: 38%;
+  padding: 1%;
+  margin: 0.5%;
+  border-radius: 20px;
+
+  background: #efefef;
+}
+.Part3 {
+  height: 20%;
+  margin-left: 1%;
+  margin-right: 1%;
+  border-radius: 20px;
+  background: #efefef;
+}
+.formulario1 {
+  margin-top: 1%;
+  background: #efefef;
+  height: 65%;
+  border-radius: 20px;
+}
+.pa {
+  padding-bottom: 8px;
+}
+.in {
+  padding-left: 2%;
+
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+.inputTLarge {
+  margin-left: 1%;
+  width: 68%;
+  float: right;
+  border: 0;
+  height: 25px;
+  border-radius: 20px;
+}
+.inputTShort {
+  margin-right: 28%;
+  float: right;
+  margin-left: 1%;
+  width: 40%;
+  border: 0;
+  border-radius: 20px;
+  height: 25px;
+}
+.btnSave {
+  position: relative;
+  top: 10%;
+  left: 70%;
+  background: #ed9b40;
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+}
+.inputText {
+  margin-top: 1.5%;
+}
+
+.btnGuarda {
+  position: relative;
+  margin-top: 30px;
+  border-radius: 20px;
+  width: 40%;
+  height: 40px;
+  left: 33%;
+  background: #ed9b40;
+}

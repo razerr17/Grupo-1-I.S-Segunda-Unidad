@@ -1,0 +1,65 @@
+.part1Info {
+  padding: 1%;
+  height: 36%;
+}
+.part2Info {
+  height: 25%;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 1%;
+  border-radius: 20px;
+  background: #efefef;
+}
+.part3Info {
+  height: 25%;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 1%;
+  border-radius: 20px;
+  background: #efefef;
+}
+.alturaDrop {
+  height: 55px;
+}
+.altur {
+  position: relative;
+  height: 400px;
+  overflow: auto;
+  margin-top: 1%;
+  width: 100%;
+  border-radius: 0px;
+}
+.alt {
+  display: block;
+}
+.alturaCelda {
+  height: 30px;
+}
+.anchotab {
+  width: 100%;
+}
+.tableScrollSe {
+  position: relative;
+  height: 80px;
+  padding-left: 1%;
+  padding-right: 1%;
+  overflow: auto;
+  margin-top: 1%;
+  width: 100%;
+  border-radius: 0px;
+}
+.btnAdd {
+  background: #ed9b40;
+  border-radius: 20px;
+  width: 100px;
+}
+.btnEnviar {
+  background: #ed9b40;
+  border-radius: 20px;
+  position: relative;
+  left: 80%;
+  top: 3%;
+  width: 200px;
+}

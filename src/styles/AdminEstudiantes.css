@@ -1,0 +1,30 @@
+.tableScrollEstudiante {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+  border-radius: 10px;
+}
+.scrollEstudiante {
+  display: block;
+}
+.TablaEstudiante {
+  height: 73%;
+  margin: 2%;
+}
+.btnAddEst {
+  background: #ed9b40;
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+.btnImportar {
+  background: #ed9b40;
+  border-radius: 10px;
+}
+.colo {
+  background: #ed9b40;
+}
+.anchoMo {
+  width: 800px;
+  background: black;
+}

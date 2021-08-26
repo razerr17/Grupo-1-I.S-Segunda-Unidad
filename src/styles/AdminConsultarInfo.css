@@ -1,0 +1,21 @@
+.left {
+  padding: 8%;
+}
+.partNom {
+  width: 90%;
+  margin: 2%;
+}
+.tableScrollConsultarInfo {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+  border-radius: 10px;
+}
+.scrollConsultarInfo {
+  display: block;
+}
+.TablaConsultarInfo {
+  height: 60%;
+  margin: 2%;
+}

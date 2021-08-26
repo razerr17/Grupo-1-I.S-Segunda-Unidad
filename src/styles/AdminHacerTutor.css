@@ -1,0 +1,24 @@
+.tableScrollHacerTutor {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+
+  width: 100%;
+  border-radius: 10px;
+}
+.scrollHacerTutor {
+  display: block;
+}
+.TablaHacerTutor {
+  height: 55%;
+  margin: 2%;
+}
+.inpuT {
+  width: 700px;
+}
+.btnG {
+  background: #ed9b40;
+  border-radius: 20px;
+  width: 100px;
+  margin-left: 20px;
+}

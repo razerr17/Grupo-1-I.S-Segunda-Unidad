@@ -1,0 +1,23 @@
+.cont {
+  height: 100%;
+  padding: 2%;
+}
+.btnBuscar {
+  background: #ed9b40;
+  border-radius: 10px;
+}
+.tableScrollEstRies {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+
+  width: 100%;
+  border-radius: 10px;
+}
+.scrollEstRies {
+  display: block;
+}
+.TablaEstRies {
+  height: 84%;
+  margin: 2%;
+}

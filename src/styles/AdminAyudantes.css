@@ -1,0 +1,27 @@
+.tableScrollAyu {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+
+  width: 100%;
+  border-radius: 10px;
+}
+.scrollAyu {
+  display: block;
+}
+.TablaAyu {
+  height: 62%;
+  margin: 2%;
+}
+.btnConsultar {
+  background: #fd9727;
+  margin-left: 80%;
+  width: 200px;
+  border-radius: 10px;
+}
+.lblAyu {
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: -20px;
+}
