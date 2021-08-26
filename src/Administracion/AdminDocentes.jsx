@@ -43,22 +43,23 @@ const AdminDocentes = () => {
         
       }
       
-      {/*const peticionPost=async()=>{
-        if(!idEstudiante.trim()){
-            setWarningview(true)
-             return
-         }     
-        //fata el post papu
-        await axios.post(baseUrl,{IDEstudiante:idEstudiante,Nombres:nombres,ApPaterno:apPaterno,ApMaterno:apMaterno,Email:email,Direccion:direccion,Celular:telefono})
+      const peticionPost=async()=>{
+        await axios.post(baseUrl,{
+                IDDocente:idDocente,
+                Nombre:nombres,
+                DNI:dni,
+                Correo:correo,
+                Celular:celular,
+                Direccion:direccion
+        })
         .then(response=>{
-            
           setData(data.concat(response.data));
           abrirCerrarModalInsertar();
 
         }).catch(error=>{
           console.log(error);
         })
-      } */}
+      }
         
       
       const readExcel=(file)=>{
@@ -157,25 +158,21 @@ const AdminDocentes = () => {
                             <br/>
                             <label>DNI: </label>
                             <br/>
-                            <input type="text" className="form-control" name="dni"onChange={ (e) => setDni(e.target.value)}/>
+                            <input type="text" className="form-control" name="dni" onChange={ (e) => setDni(e.target.value)}/>
                             <br/>
-                            
-                            
                             </Col>
                             <Col>
+                            
                             <label>Correo: </label>
                             <br/> 
-                            <input type="text" className="form-control" name="correo" onChange={ (e) => setCorreo(e.target.value)}/>
+                            <input type="email" className="form-control" name="correo" onChange={ (e) => setCorreo(e.target.value)}/>
                             <br/>       
-                            <label>Celular: </label>
-                        <br/>
-                        <input type="email" className="form-control" name="Email" onChange={ (e) => setCelular(e.target.value)}/>
-                        <br/>            
-                        
-                        <label>Direccion: </label>
-                        <br/>
-                        <input type="text" className="form-control" name="ireccion" onChange={ (e) => setDireccion(e.target.value)}/>
-                        <br/>             
+                            <label>Celular :</label>
+                            <br />
+                            <input type="text" className="form-control" name="telefono" onChange={(e)=>setCelular(e.target.value)} />
+                            <br/>
+                            <label htmlFor="">Direccion</label>
+                            <input type="text" className="form-control" name="direccion" onChange={(e)=>setDireccion(e.target.value)}/>
                             </Col>
                         </Row>
                                          
@@ -183,7 +180,7 @@ const AdminDocentes = () => {
                     </div>
                     </ModalBody>
                     <ModalFooter>
-                    <button className="btnColoG"  >Insertar</button>{""}
+                    <button className="btnColoG" onClick={()=>peticionPost()} >Insertar</button>{""}
                     <button className="btnColoC " onClick={()=>abrirCerrarModalInsertar()}>Cancelar</button>
                     </ModalFooter>
                 </Modal>
