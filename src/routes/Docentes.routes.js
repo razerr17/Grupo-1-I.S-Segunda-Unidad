@@ -1,5 +1,5 @@
 import { Router } from "express";
-import {addDocente, deleteDocenteById, getDocenteById, getDocentes, updateDocenteById,} from '../controllers/Docentes.crontrollers'
+import {addDocente, addDocentes, deleteDocenteById, getDocenteById, getDocentes, updateDocenteById,} from '../controllers/Docentes.crontrollers'
 //DOCENTES ROUTES
 //importamos la funcion router para el enrutado
 const router=Router();
@@ -9,6 +9,8 @@ router.get('/docentes',getDocentes);
 router.get('/docentes/:id',getDocenteById);
 //funcion para agregar un docente nuevo
 router.post('/docentes',addDocente);
+//funcion para agregar varios estudiantes
+router.post('/docentesLista',addDocentes);
 //funcion para actualizar un docente por ID
 router.put('/docentes/:id',updateDocenteById);
 //funcion para eliminar un docente por ID

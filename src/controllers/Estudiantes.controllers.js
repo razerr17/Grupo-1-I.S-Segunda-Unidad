@@ -37,12 +37,30 @@ export const addEstudiante=async (req,res)=>{
             .input("Direccion",sql.VarChar,Direccion)
             .input("Celular",sql.VarChar,Celular)
             .query(queries.addNewEstudiantes);
-        console.log('addEstudiantes executed',IDEstudiante)
+        console.log('addEstudiante executed',IDEstudiante)
         res.json({IDEstudiante,Nombres,ApPaterno,ApMaterno,Email,Direccion,Celular});
     }catch(error){
         res.status(500);
         res.send(error.message);
     }
+};
+export const addEstudiantes=async (req,res)=>{
+    try{  
+        const Lista=req.body;
+        let queriestemp='';
+        for (let i = 0; i < Lista.length; i++) {
+            let IDEstudiante=Lista[i].IDEstudiante,Nombres=Lista[i].Nombres,ApPaterno=Lista[i].ApPaterno,ApMaterno=Lista[i].ApMaterno,
+            Email=Lista[i].Email,Direccion=Lista[i].Direccion,Celular=Lista[i].Celular;
+            queriestemp+="Insert into TEstudiante Values ('"+IDEstudiante+"','"+Nombres+"','"+ApPaterno+"','"+ApMaterno+"','"+Email+"','"+Direccion+"','"+Celular+"')\n";
+        }
+        console.log(queriestemp);
+        const pool=await getConnection();
+        const result=await pool.request().query(queriestemp);
+        console.log('addEstudiantes executed')
+        res.json(result.recordset);
+    }catch(error){
+        res.status(500);
+        res.send(error.message);}
 };
 export const updateEstudianteById=async (req,res)=>{
     try{
