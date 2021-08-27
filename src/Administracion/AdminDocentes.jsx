@@ -16,9 +16,9 @@ const AdminDocentes = () => {
     const[idDocente,setIdDocente]=useState('')
     const[nombres,setNombres]=useState('')
     const[dni,setDni]=useState('')
-    const[correo,setCorreo]=('')
-    const[celular,setCelular]=('')
-    const[direccion,setDireccion]=('')
+    const[correo,setCorreo]=useState('')
+    const[celular,setCelular]=useState('')
+    const[direccion,setDireccion]=useState('')
     const[warningView,setWarningview]=useState(false);
     const[prueba,setPrueba]=useState([{
         IDEstudiante:'',
@@ -44,6 +44,14 @@ const AdminDocentes = () => {
       }
       
       const peticionPost=async()=>{
+        if(!idDocente.trim()||!nombres.trim()||!dni.trim()||!correo.trim()||!celular.trim()||!direccion.trim()){
+            setWarningview(true)
+             return
+         }     
+        if(!(parseInt(celular)<=999999999 &&parseInt(celular)>=900000000)|| !(parseInt(dni)<=99999999 && parseInt(dni)>=10000000)){
+            setWarningview(true)
+             return
+        }
         await axios.post(baseUrl,{
                 IDDocente:idDocente,
                 Nombre:nombres,
