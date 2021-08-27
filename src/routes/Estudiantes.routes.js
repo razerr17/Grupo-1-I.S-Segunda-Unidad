@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { addEstudiante, deleteEstudianteById, getEstudianteById, getEstudiantes, updateEstudianteById} from "../controllers/Estudiantes.controllers";
+import { addEstudiante, addEstudiantes, deleteEstudianteById, getEstudianteById, getEstudiantes, updateEstudianteById} from "../controllers/Estudiantes.controllers";
 
 //importamos la funcion router para el enrutado
 const router=Router();
@@ -10,6 +10,8 @@ router.get('/estudiantes',getEstudiantes);
 router.get('/estudiantes/:id',getEstudianteById);
 //funcion para agregar un estudiante nuevo
 router.post('/estudiantes',addEstudiante);
+//funcion para agregar varios estudiantes
+router.post('/estudiantesLista',addEstudiantes);
 //funcion para actualizar un estudiante por ID
 router.put('/estudiantes/:id',updateEstudianteById);
 //funcion para eliminar un estudiante por ID

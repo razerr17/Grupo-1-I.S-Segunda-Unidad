@@ -43,6 +43,24 @@ export const addDocente=async (req,res)=>{
         res.send(error.message);
     }
 };
+export const addDocentes=async (req,res)=>{
+    try{  
+        const Lista=req.body;
+        let queriestemp='';
+        for (let i = 0; i < Lista.length; i++) {
+            let IDDocente=Lista[i].IDDocente,Nombre=Lista[i].Nombre,DNI=Lista[i].DNI,Correo=Lista[i].Correo,
+            Celular=Lista[i].Celular,Direccion=Lista[i].Direccion;
+            queriestemp+="Insert into TDocente Values ('"+IDDocente+"','"+Nombre+"','"+DNI+"','"+Correo+"','"+Celular+"','"+Direccion+"')\n";
+        }
+        console.log(queriestemp);
+        const pool=await getConnection();
+        const result=await pool.request().query(queriestemp);
+        console.log('addDocentes executed')
+        res.json(result.recordset);
+    }catch(error){
+        res.status(500);
+        res.send(error.message);}
+};
 export const updateDocenteById=async (req,res)=>{
     try{
         const {id}=req.params;

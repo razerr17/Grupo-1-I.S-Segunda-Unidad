@@ -10,5 +10,11 @@ export const queries={
     getDocenteById:"Select * from TDocente where IDDocente=@IDDocente",
     addNewDocente:"Insert into TDocente Values (@IDDocente,@Nombre,@DNI,@Correo,@Celular,@Direccion)",
     deleteDocenteById:"delete from TDocente where IDDocente=@IDDocente",
-    updateDocenteById:"update TDocente set Nombre=@Nombre,DNI=@DNI,Correo=@Correo,Celular=@Celular,Direccion=@Direccion where IDDocente=@IDDocente"
+    updateDocenteById:"update TDocente set Nombre=@Nombre,DNI=@DNI,Correo=@Correo,Celular=@Celular,Direccion=@Direccion where IDDocente=@IDDocente",
+    // Queries Tutor
+    getAllTutor:"Select * from TTutor",
+    getTutorById:"Select * from TTutor where IDTutor=@IDTutor",
+    addNewTutor:"Insert into TTutor Values (@IDTutor,@Tutorados,@IDDocente)",
+    deleteTutorById:"delete from TTutor where IDTutor=@IDTutor",
+    updateTutorById:"update TTutor set IDTutor=@IDTutor,Tutorados=@Tutorados,IDDocente=@IDDocente where IDTutor=@IDTutor"
 }
