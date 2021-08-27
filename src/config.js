@@ -1,5 +1,6 @@
 import { config } from "dotenv"
 config();
+//configuracion de los parametros en variables de entorno
 export default{
     port:process.env.PORT || 5000,
     dbUser:process.env.DB_USER || '',
