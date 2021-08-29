@@ -10,8 +10,15 @@ import {Modal,ModalBody,ModalFooter,ModalHeader} from 'reactstrap'
 const AdminDocentes = () => {
 
     const baseUrl=`http://localhost:4000/docentes`;
-   
-    const[excel,setExcel]=useState([]);
+    const baseUrlExcel=`http://localhost:4000/docentesLista`;
+    const[excel,setExcel]=useState([{
+        IDDocente:'',
+        Nombre:'',
+        DNI:'',
+        Correo:'',
+        Celular :'',
+        Direccion:''
+    }]);
     const[modalInsertar,setModalInsertar]=useState(false);
     const[idDocente,setIdDocente]=useState('')
     const[nombres,setNombres]=useState('')
@@ -20,18 +27,24 @@ const AdminDocentes = () => {
     const[celular,setCelular]=useState('')
     const[direccion,setDireccion]=useState('')
     const[warningView,setWarningview]=useState(false);
-    const[prueba,setPrueba]=useState([{
-        IDEstudiante:'',
-        Nombres:'',
-        ApPaterno:'',
-        ApMaterno:'',
-        Email:'',
-        Celular:'',
-        Direccion:''
-      }]
-      )
-      {/*metodos para el api*/}
+    //*metodos para el api*
     const[data,setData]=useState([]);
+    const limpiar=()=>{
+        setIdDocente('')
+        setNombres('')
+        setDni('')
+        setCorreo('')
+        setCelular('')
+        setDireccion('')
+        setExcel([{
+            IDDocente:'',
+            Nombre:'',
+            DNI:'',
+            Correo:'',
+            Celular :'',
+            Direccion:''
+        }])
+    }
     const peticionGet=async()=>{
         await axios.get(baseUrl)
         .then(response=>{
@@ -42,7 +55,16 @@ const AdminDocentes = () => {
         })
         
       }
-      
+      const peticionPostExcel=async()=>{
+        await axios.post(baseUrlExcel,excel)
+        .then(response=>{
+        setData(data.concat(response.data));
+        limpiar();
+        document.getElementById('inputGroupFile04').value ='';
+        }).catch(error=>{
+        console.log(error);
+        })
+      }
       const peticionPost=async()=>{
         if(!idDocente.trim()||!nombres.trim()||!dni.trim()||!correo.trim()||!celular.trim()||!direccion.trim()){
             setWarningview(true)
@@ -62,8 +84,8 @@ const AdminDocentes = () => {
         })
         .then(response=>{
           setData(data.concat(response.data));
+          limpiar();
           abrirCerrarModalInsertar();
-
         }).catch(error=>{
           console.log(error);
         })
@@ -89,7 +111,7 @@ const AdminDocentes = () => {
             })
         })
         promise.then((d)=>{
-            setPrueba(d);
+            setExcel(d);
         })
     }
     const abrirCerrarModalInsertar=()=>{
@@ -98,7 +120,10 @@ const AdminDocentes = () => {
       const abrirCerrarModalWarning=()=>{
         setWarningview(!warningView);
       }
-   
+    //const guardarExcel=()=>{
+     //   console.log(excel)
+       // document.getElementById('inputGroupFile04').value =''; 
+    //}
     useEffect(()=>{
         peticionGet();
       })
@@ -146,7 +171,7 @@ const AdminDocentes = () => {
                                 const file=e.target.files[0];
                                 readExcel(file);}}
                        />
-                       <button  className="btnImportar" type="button" id="inputGroupFileAddon04">Importar</button>
+                       <button  className="btnImportar" type="button" id="inputGroupFileAddon04" onClick={()=>peticionPostExcel()}>Importar</button>
                     </div>
 
                    </div>
