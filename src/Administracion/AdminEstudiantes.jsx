@@ -10,8 +10,7 @@ import {Modal,ModalBody,ModalFooter,ModalHeader} from 'reactstrap'
 const AdminEstudiantes = () => {
 
     const baseUrl=`http://localhost:4000/estudiantes`;
-   
-    const[excel,setExcel]=useState([]);
+    const baseUrlExcel=`http://localhost:4000/estudiantesLista`;
     const[modalInsertar,setModalInsertar]=useState(false);
     const [idEstudiante, setIdEstudiante] = React.useState("");
     const [nombres, setNombres] = React.useState("");
@@ -21,7 +20,7 @@ const AdminEstudiantes = () => {
     const [telefono, setTelefono] = React.useState("");
     const [direccion, setDireccion] = React.useState("");
     const[warningView,setWarningview]=useState(false);
-    const[prueba,setPrueba]=useState([{
+    const[excel,setExcel]=useState([{
         IDEstudiante:'',
         Nombres:'',
         ApPaterno:'',
@@ -31,7 +30,7 @@ const AdminEstudiantes = () => {
         Direccion:''
       }]
       )
-      {/*metodos para el api*/}
+      //*metodos para el api*/
     const[data,setData]=useState([]);
     const peticionGet=async()=>{
         await axios.get(baseUrl)
@@ -42,8 +41,17 @@ const AdminEstudiantes = () => {
           console.log(error);
         })
         
+      } 
+      const peticionPostExcel=async()=>{
+        await axios.post(baseUrlExcel,excel)
+        .then(response=>{
+        setData(data.concat(response.data));
+        limpiar();
+        document.getElementById('inputGroupFile04').value ='';
+        }).catch(error=>{
+        console.log(error);
+        })
       }
-      
       const peticionPost=async()=>{
         if(!idEstudiante.trim()||!nombres.trim()||!apPaterno.trim()||!apMaterno.trim()||!email.trim()||!telefono.trim()||!direccion.trim()){
             setWarningview(true)
@@ -59,13 +67,16 @@ const AdminEstudiantes = () => {
             
           setData(data.concat(response.data));
           abrirCerrarModalInsertar();
-
+            limpiar();
         }).catch(error=>{
           console.log(error);
         })
       }
         
-      
+    const guardarExcel=()=>{
+       console.log(excel)
+     document.getElementById('inputGroupFile04').value =''; 
+    }
       const readExcel=(file)=>{
         const promise=new Promise((resolve,reject)=>{
             const fileReader=new FileReader();
@@ -85,7 +96,7 @@ const AdminEstudiantes = () => {
             })
         })
         promise.then((d)=>{
-            setPrueba(d);
+            setExcel(d);
         })
     }
     const abrirCerrarModalInsertar=()=>{
@@ -102,7 +113,7 @@ const AdminEstudiantes = () => {
         setEmail('')
         setTelefono('')
         setDireccion('')
-        setPrueba({
+        setExcel({
             IDEstudiante:'',
             Nombres:'',
             ApPaterno:'',
@@ -112,14 +123,6 @@ const AdminEstudiantes = () => {
             Direccion:''
           }
           )
-    }
-    
-    const guardarExcel=()=>{
-        console.log(idEstudiante);
-        console.log(nombres);
-        console.log(apPaterno);
-        console.log(apMaterno);
-      
     }
     useEffect(()=>{
         peticionGet();
@@ -168,7 +171,7 @@ const AdminEstudiantes = () => {
                                 const file=e.target.files[0];
                                 readExcel(file);}}
                        />
-                       <button onClick={ guardarExcel} className="btnImportar" type="button" id="inputGroupFileAddon04">Importar</button>
+                       <button className="btnImportar" type="button" id="inputGroupFileAddon04" onClick={()=>{peticionPostExcel()}}>Importar</button>
                     </div>
 
                    </div>
